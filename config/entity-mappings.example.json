@@ -1,0 +1,10 @@
+{
+  "entity_type": "customer",
+  "entity_mappings": {
+    "Acme Corporation": ["Acme Corp", "Acme", "ACME Inc", "Acme Inc."],
+    "Beta Technologies": ["Beta Tech", "BetaTech", "Beta"],
+    "Global Industries": ["Global Ind", "GlobalInd", "GI Corp"]
+  },
+  "learned_entities": [],
+  "fuzzy_matches_pending_confirmation": []
+}

@@ -1,0 +1,27 @@
+# Config files with user data
+config/config.json
+config/entity-mappings.json
+config/prompt-refinements.json
+
+# Logs and checkpoints
+logs/
+output/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db

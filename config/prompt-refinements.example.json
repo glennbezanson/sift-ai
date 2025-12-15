@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "refinements": [],
+  "category_hints": {},
+  "entity_detection_rules": [],
+  "notes": "This file stores learned prompt improvements across waves. As you review unknowns and make decisions, add hints here to improve future categorization."
+}

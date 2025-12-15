@@ -1,0 +1,49 @@
+{
+  "source_paths": [
+    "C:/Users/YourUsername/Documents",
+    "C:/Users/YourUsername/Desktop"
+  ],
+  "archive_destination": "C:/Users/YourUsername/Archive",
+  "confidence_threshold": 7,
+  "skip_folders": [
+    "node_modules",
+    ".git",
+    "__pycache__",
+    ".obsidian",
+    ".vscode",
+    "venv",
+    ".env"
+  ],
+  "skip_extensions": [
+    ".md",
+    ".log",
+    ".tmp",
+    ".bak"
+  ],
+  "process_extensions": [
+    ".docx",
+    ".doc",
+    ".xlsx",
+    ".xls",
+    ".pptx",
+    ".ppt",
+    ".pdf",
+    ".txt",
+    ".csv",
+    ".rtf",
+    ".odt",
+    ".ods",
+    ".odp"
+  ],
+  "max_file_size_mb_for_content": 50,
+  "api_key_env_var": "ANTHROPIC_API_KEY",
+  "api_base_url": null,
+  "entity_type": "customer",
+  "entity_mappings_file": "config/entity-mappings.json",
+  "batch_size": 50,
+  "max_retries": 3,
+  "retry_delay_seconds": 2,
+  "self_critique_enabled": true,
+  "sibling_context_enabled": true,
+  "sibling_context_limit": 10
+}

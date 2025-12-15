@@ -1,0 +1,34 @@
+# Sift AI - Dependencies
+# Python 3.9+ required
+
+# Anthropic API
+anthropic>=0.40.0
+
+# Document processing - Modern formats
+python-docx>=0.8.11
+PyPDF2>=3.0.0
+openpyxl>=3.1.0
+python-pptx>=0.6.21
+
+# Document processing - Legacy .doc support (Windows)
+pywin32>=306;sys_platform=='win32'
+
+# PDF Vision fallback (requires poppler installed on system)
+pdf2image>=1.16.0
+Pillow>=10.0.0
+
+# File type detection
+python-magic-bin>=0.4.14;sys_platform=='win32'
+python-magic>=0.4.27;sys_platform!='win32'
+
+# Progress display
+tqdm>=4.65.0
+
+# CLI colors
+colorama>=0.4.6
+
+# Fuzzy string matching for entity detection
+rapidfuzz>=3.5.0
+
+# Date parsing
+python-dateutil>=2.8.2
